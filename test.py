@@ -19,4 +19,6 @@ def testcheck():
 
 def testprime():
 	n = 3
-	assert prime(n) == True
+	n2 = 4
+	assert prime(n) == "prime"
+	assert prime(n2) == "not prime"
