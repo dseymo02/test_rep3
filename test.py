@@ -32,4 +32,4 @@ def reverse():
 # test for q4
 def testprintfib():
 	number = 5
-	assert printfib(number) = [1,1,2,3,5]
+	assert printfib(number) == [1,1,2,3,5]
