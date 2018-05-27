@@ -1,2 +1,2 @@
 def check(lst,v):
-	pass
+	return v in lst
