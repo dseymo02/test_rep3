@@ -22,3 +22,9 @@ def testprime():
 	n2 = 4
 	assert prime(n) == "prime"
 	assert prime(n2) == "not prime"
+
+# test for q3
+
+def reverse():
+	lst = ["he", "is", "doing", "okay"]
+	assert reverse(lst) = ["okay", "doing", "is", "he"]
