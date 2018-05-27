@@ -27,4 +27,4 @@ def testprime():
 
 def reverse():
 	lst = ["he", "is", "doing", "okay"]
-	assert reverse(lst) = ["okay", "doing", "is", "he"]
+	assert reverse(lst) == ["okay", "doing", "is", "he"]
