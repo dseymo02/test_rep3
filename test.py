@@ -28,3 +28,8 @@ def testprime():
 def reverse():
 	lst = ["he", "is", "doing", "okay"]
 	assert reverse(lst) == ["okay", "doing", "is", "he"]
+
+# test for q4
+def testprintfib():
+	number = 5
+	assert printfib(number) = [1,1,2,3,5]

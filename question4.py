@@ -1,0 +1,2 @@
+def printfib(n):
+	pass
