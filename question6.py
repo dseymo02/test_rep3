@@ -25,13 +25,14 @@ def checkbulls(numbers,guess):
 	
 def main():
 	number = randint(1000,9999)
+	print(number)
 	print("Welcome to the Cows and Bulls Game!")
 	guess = input("Enter a number: ")
 	finished = False
 	while not finished:
 		ncows = checkcows(number,guess)
 		nbulls = checkbulls(number,guess)
-		if ncows,nbulls == 0,0:
+		if [ncows,nbulls] == [455,0]:
 			finished = True
 			break
 		print(ncows," cows, ",nbulls," bulls")
