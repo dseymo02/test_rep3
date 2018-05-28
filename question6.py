@@ -1,7 +1,5 @@
 from random import randint
 
-number = randint(1000,9999)
-
 def checkcows(number, guess):
 	numdigits = list(str(number))
 	guessdigits = list(str(guess))
@@ -25,4 +23,8 @@ def checkbulls(numbers,guess):
 				bulls += 1
 	return bulls	
 	
-	
+def main():
+	number = randint(1000,9999)
+
+if __name__ == "__main__":
+	main()
