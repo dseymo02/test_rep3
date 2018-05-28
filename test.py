@@ -41,10 +41,17 @@ def testintersection():
 	assert intersection(a,b) == [1,2,3,5,8,13]
 
 # test for q6
-def testcheck():
+def testcheckcows():
 	number = "1277"
 	guess1 = "1234"
 	guess2 = "1526"
 	assert checkcows(number, guess1) == 2
 	assert checkcows(number, guess2) == 1
+
+def testcheckbulls():
+	number = "1277"
+	guess1 = "1234"
+	guess2 = "1526"
+	assert checkbulls(number, guess1) == 0
+	assert checkbulls(number, guess2) == 1	
 
