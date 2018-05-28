@@ -39,3 +39,12 @@ def testintersection():
 	a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 	b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 	assert intersection(a,b) == [1,2,3,5,8,13]
+
+# test for q6
+def testcheck():
+	number = "1277"
+	guess1 = "1234"
+	guess2 = "1526"
+	assert checkcows(number, guess1) == "2 cows"
+	assert checkcows(number, guess2) == "1 cow"
+
