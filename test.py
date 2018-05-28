@@ -45,6 +45,6 @@ def testcheck():
 	number = "1277"
 	guess1 = "1234"
 	guess2 = "1526"
-	assert checkcows(number, guess1) == "2 cows"
-	assert checkcows(number, guess2) == "1 cow"
+	assert checkcows(number, guess1) == 2
+	assert checkcows(number, guess2) == 1
 
